@@ -1,0 +1,53 @@
+# Byte-compiled / package files
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+
+# Virtual environment
+venv/
+env/
+*.venv
+Pipfile
+Pipfile.lock
+
+# Data and model files
+LJSpeech-1.1/         # Avoid committing dataset
+*.wav                 # Ignore all audio files
+*.mp3
+*.flac
+metadata.csv          # Avoid committing metadata if large
+datasets/
+data/
+*.hdf5                # Ignore model checkpoints
+*.h5
+*.tflite
+*.ckpt
+*.pb
+*.npy
+*.npz
+
+# TensorFlow and Jupyter cache
+.checkpoints/
+logs/
+tensorboard_logs/
+*.tfevents
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE/editor-specific files
+.vscode/
+.idea/
+*.sublime-workspace
+*.swp
+*.DS_Store
+*.bak
+*.log
+
+# Python cache
+*.pkl
+*.db
+*.sqlite3
+*.csv~
+
